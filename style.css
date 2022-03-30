@@ -128,8 +128,8 @@ footer div#controles input[type="range"] {
 }
 
 .poke{
-  max-width:100px;
-  height:450px;
+  width:auto;
+  height:auto;
   position:absolute;
   top:0;
   right:0;
