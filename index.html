@@ -36,7 +36,7 @@
                     losNombres.push(p.name);
                     lasImagenes.push(p.img);
                 });
-                var x = Math.round(random(0, losNombres.length)*10);
+                var x = Math.round(random(0, 1)*10);
                 console.log(x);
                 createElement("strong", losNombres[x]).parent("nombre");
                 createImg(lasImagenes[x], "").position(960, 10).style("z-index", "-1").addClass('poke');
