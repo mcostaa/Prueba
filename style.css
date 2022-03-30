@@ -128,9 +128,9 @@ footer div#controles input[type="range"] {
 }
 
 .poke{
-  width:auto;
+  width:400px;
   height:auto;
   position:absolute;
-  top:0;
-  right:0;
+  margin-top:200px;
+  margin-left:auto;
 }
